@@ -1,0 +1,11 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "Desafio tecnico cypress",
+  "main": "index.js",
+  "author": "Thiago Coutinho",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
