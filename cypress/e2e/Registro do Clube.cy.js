@@ -65,7 +65,7 @@ describe('Desafio Técnico QA', () => {
         cy.get('#modalidade-27').check();
 
 
-        cy.get('.card > .action > .btn-primary')
+        cy.get('.card > .action > .btn-primary').click();
 
         cy.get('.swal2-html-container')
             .should('contain.text', 'Clube incluído com sucesso!')
